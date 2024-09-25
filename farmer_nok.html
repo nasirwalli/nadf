@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farmer Dashboard</title>
+    <link rel="stylesheet" href="./assets/css/farmer_nok.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <a href="./index.html"> <img src="../assets/images/logo.png" alt="NADF Logo"></a>
+            <i class="fas fa-bars"></i>
+        </div>
+        <p>Dashboard</p>
+        <div class="search-section">
+            <input type="text" placeholder="SEARCH" />
+            <i class="fas fa-search"></i>
+        </div>
+
+        <div class="h2"><h2>Farmer Details: David Farmson</h2>
+        </div>
+        <div class="section">
+            <div class="title">
+                <span>PERSONAL INFORMATION</span>
+                <span class="status complete"><i class="fas fa-check"></i></span>
+            </div>
+        </div>
+        <div class="section">
+            <div class="title">
+                <span>IDENTITY VERIFICATION</span>
+                <span class="status incomplete"><i class="fas fa-times"></i></span>
+            </div>
+        </div>
+        <div class="section">
+            <div class="title">
+                <span>NEXT OF KIN</span>
+                <span class="status incomplete"><i class="fas fa-times"></i></span>
+            </div>
+        </div>
+    <div class="form-container">
+        <div class="form-group">
+            <label for="NOKN">Next of Kin Name</label>
+            <input type="text" id="NOKN" name="NOKN" value="" required>
+        </div>
+        <div class="form-group">
+            <label for="NOKNO">Next of Kin Number</label>
+            <input type="text" id="NOKNO" name="NOKNO" value="" required>
+        </div>
+    </div>
+        <div class="section">
+            <div class="title">
+                <span>SIGNATURE</span>
+                <span class="status incomplete"><i class="fas fa-times"></i></span>
+            </div>
+        </div>
+        <button>Save</button>
+    </div>
+</body>
+</html>
