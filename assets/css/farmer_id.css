@@ -166,6 +166,14 @@ button {
 button:disabled {
     background-color: grey;
 }
+.linkstyle {
+    text-decoration: none;
+    color: black;  
+}
+.linkstyle:hover{
+    color: blue;
+    text-decoration: underline;
+}
 @media (max-width: 768px) {
     .container {
         width: 100%;
